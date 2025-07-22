@@ -1,10 +1,10 @@
-let num1 = 600
-let num2 = 500
-let num3 = 600
+let num1 = 150
+let num2 = 100
+let num3 = 250
 let resut = document.querySelector('h1')
 
 if(num1 === num2 && num1 === num3){
-    resut.textContent = "todos são iguais"
+    resut.textContent = "são todos são iguais"
 }
 
 else if (num1 === num2 && num2 >= num3 ) {
