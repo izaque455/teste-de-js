@@ -6,15 +6,12 @@ let resut = document.querySelector('h1')
 if(num1 === num2 && num1 === num3){
     resut.textContent = "são todos são iguais"
 }
-
 else if (num1 === num2 && num2 >= num3 ) {
     resut.textContent = 'o num1 ('+ num1+') e o num2 ('+num2+') é maior que o num3 que é ('+num3+')'
 }
-
 else if (num2 === num3 && num3 >= num1 ) {
     resut.textContent = 'o num2 ('+ num2+') e o num3 ('+num3+') é maior que o num1 que é ('+num1+')' 
 }
-
 else if (num1 === num3 && num3 >= num2) {
     resut.textContent = 'o num1('+ num1+') e o num3 ('+num3+') é maior que o num2 que é ('+num2+')' 
 }

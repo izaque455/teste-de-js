@@ -1,0 +1,13 @@
+
+h1{
+    background-image: url(costa-rica-a-opcao-ideal-para-o-turismo-de-natureza-na-america-latina.jpeg);
+    background-size: contain;
+    background-clip: text;
+    color: transparent;
+    font-size: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}

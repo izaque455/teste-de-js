@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.caixa-de-botao {
+    position: absolute;
+    margin-top: 0px;
+}
+
+button {
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 285%;
+    top: -50%;
+    font-weight: 900;
+
+
+}
+
+input {
+    width: 212px;
+    height: 35px;
+    margin-bottom: 6px;
+    position: absolute;
+    left: 42%;
+    top: 33%;
+    text-align: right;
+    appearance: none;
+    padding-right: 15px;
+    font-weight: 900;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+.efeito {
+    border: 5px solid rgb(255, 0, 0);
+    width: 270px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
