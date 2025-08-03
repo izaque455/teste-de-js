@@ -47,3 +47,9 @@ p{
 .pontuaçao-da-Alexa span{
     color: red;
 }
+.result-da-alexa{
+    color: red;
+}
+.result-seu{
+     color: rgb(0, 110, 255);
+}
